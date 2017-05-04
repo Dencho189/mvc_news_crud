@@ -1,0 +1,93 @@
+.form_create{
+    border: 2px solid grey;
+    padding: 5px;
+    max-width: 300px;
+}
+.form_create label, .btns, .form_update label{
+    display: block;
+    margin: 3px 0;
+}
+.form_create input, .form_create textarea, .form_update input, .form_update textarea{
+    width: 97%;
+}
+.form_create textarea, .form_update textarea{
+    height: 100px;
+}
+.btns{
+    margin: 10px 0;
+}
+#blah{
+    max-width: 100px;
+}
+
+#login{
+    float: right;
+}
+
+table{
+    width: 100%;
+}
+th{
+    text-align: left;
+}
+tr:first-child{
+    background-color: wheat;
+}
+tr:nth-child(2n+2){
+    background-color: #e1e4ff;
+}
+.action span{
+    margin: 0 10px;
+    margin-left: 0;
+    cursor: pointer;
+
+}
+.action span:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.preview_form {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.preview_form ._group{
+    display: block;
+}
+
+.preview_form ._group img{
+    max-width: 150px;
+    display: block;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
